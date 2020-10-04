@@ -1,3 +1,6 @@
+# setup-cmp-playground
+
 **Abstract:**
 
-This guide explains how to setup your own CMP playground using your own Google Cloud sandbox (e.g. `yourname-playground`)
+This guide explains how to setup your own CMP playground using your own Google Cloud sandbox \(e.g. `yourname-playground`\)
+
