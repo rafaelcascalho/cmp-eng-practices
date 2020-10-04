@@ -1,6 +1,4 @@
-# Welcome to Platforms!
-
-## Welcome!
+# Welcome!
 
 We are on a mission to empower developers at digital-native companies to improve cloud operations, maintain security, control cost, and ensure governance of ever-growing cloud estate. If you’re reading this document, it means you have decided to join us on this journey!
 
@@ -176,7 +174,7 @@ Login to Asana and make sure to set up your full name and Avatar to make it easi
 
 Each of the boards will have a task name and status column such as “Developing This Week”, “QA/Review” or “Done”.
 
-Once a task is assigned to you, please do the following:
+Once a task was assigned to you, please do the following:
 
 * See that you understand what you need to do
 * Once you start the task move it to "Developing this Week" column
