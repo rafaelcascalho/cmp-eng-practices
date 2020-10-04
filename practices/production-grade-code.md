@@ -75,3 +75,5 @@ TODO: Code example
 
 As a software engineer, you know the most nitty gritty details of your implementation. Try to document as much as possible in the operational playbook so others could operate this feature when you're not available.  
 
+Check the Operation Playbooks Wiki for examples \(and add yours!\)
+
