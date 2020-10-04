@@ -2,9 +2,9 @@
 
 * [CMP Engineering Practices](README.md)
 * [Git Branch Naming Convention](branch-mgmt.md)
-* [setup-cmp-playground](setup-cmp-playground.md)
 
 ## How To
 
 * [Copy Firestore to Dev/Sandbox](how-to/firestore-cp-to-dev.md)
+* [Setup CMP Playground/Sandbox](how-to/setup-cmp-playground.md)
 

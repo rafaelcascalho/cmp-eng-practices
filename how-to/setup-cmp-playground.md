@@ -1,4 +1,4 @@
-# setup-cmp-playground
+# Setup CMP Playground/Sandbox
 
 **Abstract:**
 
