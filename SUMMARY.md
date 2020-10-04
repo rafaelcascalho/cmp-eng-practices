@@ -17,5 +17,5 @@
 
 ## Onboarding Guides <a id="onboarding"></a>
 
-* [Welcome to Platforms!](onboarding/welcome-to-platforms.md)
+* [Welcome to Platforms!](onboarding/welcome.md)
 
