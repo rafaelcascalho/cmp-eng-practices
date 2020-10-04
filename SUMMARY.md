@@ -1,7 +1,10 @@
 # Table of contents
 
-* [CMP Engineering Practices](README.md)
-* [Git Branch Naming Convention](branch-mgmt.md)
+* [Software Engineering Practices](README.md)
+
+## Practices
+
+* [Git Branch Naming Convention](practices/branch-mgmt.md)
 
 ## How To
 
