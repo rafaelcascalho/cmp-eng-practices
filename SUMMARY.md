@@ -15,3 +15,7 @@
 * [Copy Firestore to Dev/Sandbox](how-to/firestore-cp-to-dev.md)
 * [Setup CMP Playground/Sandbox](how-to/setup-cmp-playground.md)
 
+## Onboarding Guides <a id="onboarding"></a>
+
+* [Welcome to Platforms!](onboarding/welcome-to-platforms.md)
+
