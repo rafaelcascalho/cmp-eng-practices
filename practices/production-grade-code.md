@@ -23,7 +23,9 @@ You need to have a clear understanding about how your code is going to be deploy
 
 Your code should be aware of environment it's running in and act accordingly. There is a difference if your code runs locally on your laptop, the dev/staging environments or in the production environment. Where applicable, use this simple case:
 
-...
+```text
+TODO: Code example
+```
 
 **Secrets**
 
@@ -39,7 +41,11 @@ It can be achieved by sending events to [Mixpanel](https://mixpanel.com/), the t
 Events should follow naming convention - `cmp.feature-name.action-name`. For example, `cmp.analytics.reports.new` is the event when new Cloud Analytics report is created. 
 {% endhint %}
 
-Check the reference events emitment implementation at...
+Check the reference events emitment implementation for more details:
+
+```text
+TODO: Code example
+```
 
 **Monitoring**
 
@@ -51,13 +57,21 @@ For monotonously running tasks \(aka scheduled tasks\), a common practice is to 
 Custom metrics should follow naming convention - `cmp.feature-name.task-name`. For example, `cmp.analytics.etl.refresh` is the metric added each time the ETL refreshes the analytics data. 
 {% endhint %}
 
-Check the reference custom metric implementation at...
+Check the reference custom metric implementation implementation for more details:
+
+```text
+TODO: Code example
+```
 
 **Logs**
 
 Your code should handle errors gracefully and log the errors accoaccordly. Always send your logs to Google Cloud Logging using this .... function so these errors could be aggregated, analyzed and correlated with other errors when we try to troubleshoot the outage or a bug.  
 
+```text
+TODO: Code example
+```
+
 **Operational Playbook**
 
-As a software engineer, you know the most nitty gritty details of your implementation. Try to document as much as possible in the operational playbook so others could operate this feature when you're not available.    
+As a software engineer, you know the most nitty gritty details of your implementation. Try to document as much as possible in the operational playbook so others could operate this feature when you're not available.  
 
