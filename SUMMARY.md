@@ -4,7 +4,10 @@
 
 ## Practices
 
+* [Programming Languages](practices/programming-languages.md)
+* [Frameworks](practices/frameworks.md)
 * [Git Branch Naming Convention](practices/branch-mgmt.md)
+* [Production-grade code](practices/production-grade-code.md)
 
 ## How To
 
