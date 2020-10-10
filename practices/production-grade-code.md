@@ -77,5 +77,5 @@ TODO: Code example
 
 As a software engineer, you know the most nitty-gritty details of your implementation. Try to document as much as possible in the operational playbook so others could operate this feature when you're not available.  
 
-Check our internal docs for examples \(and add yours!\)
+Check our [internal docs](https://app.gitbook.com/@doitintl/s/cmp-ops/operational-playbooks/forecasting-time-series) for examples, and don't forget to add yours!
 
