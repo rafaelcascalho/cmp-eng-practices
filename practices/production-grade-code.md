@@ -7,13 +7,13 @@ description: >-
 
 # Writing Production-Grade Code
 
-You've just finished to debug your code and everything looks great. You feel good and already anticipate the excitement of the deployment to the production and first customers starting to enjoy your new feature. We all know this feeling.
+You've just finished debugging your code and everything looks great. You feel good and already anticipate the excitement of the deployment to the production and first customers starting to enjoy your new feature. We all know this feeling.
 
-Before you commit your code, please pause and make sure you've not forgot to think \(and implement!\) what would make the difference between just a code and the production-grade code. 
+Before you commit your code, please pause and make sure you've not forgotten to think \(and implement!\) what would make the difference between just a code and the production-grade code. 
 
 **Use the right Repository**
 
-The code should be committed into [https://github.com/doitintl/hello-cmp](https://github.com/doitintl/hello-cmp) repository using pull request so the Cloud Build could read it during the deployment process.  Cloud Build will only pull code from this repository for security purposes.
+In most cases, your code should be committed to [https://github.com/doitintl/hello-cmp](https://github.com/doitintl/hello-cmp) repository using a pull request so the Cloud Build could read it during the deployment process.  Our main deployment automation based on Google Cloud Build will only pull code from this repository for security purposes.
 
 **Deployment**
 

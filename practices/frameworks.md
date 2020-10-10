@@ -7,16 +7,16 @@ description: >-
 
 # Frameworks
 
-## Client Side Frameworks
+## Client-Side Frameworks
 
-The list of approved client side frameworks for the CMP:
+The list of approved client-side frameworks for the CMP:
 
 * [React Material UI](https://material-ui.com/)
 * [Formik](https://formik.org/)
 
-## Service Side Frameworks
+## Service-Side Frameworks
 
-The list of approved server side frameworks for the CMP:
+The list of approved server-side frameworks for the CMP:
 
 * Framework 1
 * Framework 2
