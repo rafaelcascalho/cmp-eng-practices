@@ -1,3 +1,9 @@
+---
+description: >-
+  Welcome to the Cloud Management Platform team! We are building technology for
+  modern software and ops engineers to manage and govern public cloud.
+---
+
 # Welcome!
 
 We are on a mission to empower developers at digital-native companies to improve cloud operations, maintain security, control cost, and ensure governance of ever-growing cloud estate. If you’re reading this document, it means you have decided to join us on this journey!
@@ -25,20 +31,20 @@ During your first three months, you will have an access to a US$1,000 budget to 
 
 ## Our Org Chart
 
-The Cloud Management Platform we are building has 5 pillars: Analytics, Governance, Enablement, Productivity and Optimization. Each pillar has its own team and each team has Staff Software Engineer \(SWSE\), Software Engineers \(SWE\), Product Manager, and a few other functions varying from team to team.
+The Cloud Management Platform we are building has 5 pillars: Analytics, Governance, Enablement, Productivity, and Optimization. Each pillar has its own team and each team has Staff Software Engineer \(SWSE\), Software Engineers \(SWE\), Product Manager, and a few other functions varying from team to team.
 
 As an engineer, you will be assigned to one of our pillar teams so you could develop a deep understanding and expertise in a certain area in the product. Here is a brief mission statement for each team.
 
-* **Analytics & Billing**: get an accurate view of multi-cloud spend no matter how complex the cloud infrastructure is.
+* **Analytics & Billing**: get an accurate view of costs across multiple clouds, no matter how complex the cloud infrastructure is.
 * **Governance**: policy-based governance capabilities to ensure compliance through automated remedial actions, and a greater ability to integrate with external tooling
 * **Optimization**: Address the ballooning cloud cost using a reactive approach and achieve sustainable cost reduction, using an automated approach, embraced by the developers and cloud architects.
 * **Productivity**: Provide data analysts and engineers with the best web-based IDE for cloud-native databases.
-* **Enablement**: Empower our customers to achieve more with Cloud Management Platform by building self-service functionality and “productizing” some of our Cloud Engineering team.
-* **Core** - Establish solid and robust foundations crossing the domain boundaries of Cloud Management Platform.
+* **Enablement**: Empower our customers to achieve more with the Cloud Management Platform by building self-service functionality and “productizing” some of our Cloud Engineering team.
+* **Core** - Establish solid and robust foundations crossing the domain boundaries of the Cloud Management Platform.
 
 ## Slack Communication Channels
 
-As a remote-first company, we rely on Slack, email, Google Meet, and few other communication channels. Please join the following Slack channels on doitintl.slack.com workspace:
+As a remote-first company, we rely on Slack, email, Google Meet, and a few other communication channels. Please join the following Slack channels on doitintl.slack.com workspace:
 
 * [\#team-platforms](https://doitintl.slack.com/archives/CL6932A5S) \(team’s channel\)
 * [\#cmp-release-notes](https://doitintl.slack.com/archives/C01865K3ACU) \(internal announcements of new features\)
@@ -78,60 +84,78 @@ Recommended tasks to get the most out of of your first couple of weeks:
   <tbody>
     <tr>
       <td style="text-align:left">1</td>
-      <td style="text-align:left">
-        <p>Orientations meetings with you Staff Software Engineer</p>
-        <p>Schedule a call with the finance team</p>
-        <p><a href="https://github.com/doitintl/hello-cmp/blob/dev/README.md">Setup your laptop and dev env.</a>
-        </p>
+      <td style="text-align:left">Orientation meeting with your onboarding buddy.</td>
+      <td style="text-align:left">TBD</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left">Schedule a call with the finance team</td>
+      <td style="text-align:left">noam@</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">1</td>
+      <td style="text-align:left"><a href="https://github.com/doitintl/hello-cmp/blob/dev/README.md">Set up your laptop and dev env.</a>
       </td>
-      <td style="text-align:left">dror@ [tooling]
-        <br />noam@ [finance]</td>
+      <td style="text-align:left">dror@</td>
     </tr>
     <tr>
       <td style="text-align:left">2</td>
       <td style="text-align:left">
         <p><a href="https://firebase.google.com/docs/firestore/quickstart">Start the Google Firestore Training</a> [day
           1]</p>
-        <p><a href="https://app.gitbook.com/@doitintl/s/cmp/">Watch these videos</a> [external
-          or internal ones are fine] to get familiar with the Cloud Management Platform
-          and its features. Afterward, if you&apos;d like a more in-depth run-through,
-          <a
-          href="https://calendly.com/matan-doit/cmp-talk?month=2020-09">schedule a call with Matan Bordo</a>.</p>
-      </td>
-      <td style="text-align:left">matan.bordo@</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">3</td>
-      <td style="text-align:left">
-        <p><a href="https://firebase.google.com/docs/firestore/quickstart">Continue the Google Firestore Training</a> [day
-          2]</p>
-        <p>Explore our external documentation (help.doit-intl.com)</p>
+        <p></p>
       </td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
+      <td style="text-align:left">2</td>
+      <td style="text-align:left"><a href="https://app.gitbook.com/@doitintl/s/cmp/">Watch these videos</a> to
+        get familiar with the CMP.</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">2</td>
+      <td style="text-align:left">Schedule a walkthrough call with Matan Bordo</td>
+      <td style="text-align:left">matan.bordo@</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">3</td>
+      <td style="text-align:left"><a href="https://firebase.google.com/docs/firestore/quickstart">Continue the Google Firestore Training</a> [day
+        2]</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">3</td>
+      <td style="text-align:left">Explore our external documentation (help.doit-intl.com/hc)</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
       <td style="text-align:left">4</td>
-      <td style="text-align:left">
-        <p><a href="https://gobyexample.com/">Start sharpening your Go skills</a> [day
-          1]</p>
-        <p>Explore our <a href="https://github.com/doitintl/hello-cmp">codebase</a> with
-          Dror Levy</p>
-      </td>
+      <td style="text-align:left"><a href="https://gobyexample.com/">Start sharpening your Go skills</a> [day
+        1]</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">4</td>
+      <td style="text-align:left">Explore our <a href="https://github.com/doitintl/hello-cmp">codebase</a> with
+        Dror Levy</td>
       <td style="text-align:left">dror@</td>
     </tr>
     <tr>
       <td style="text-align:left">5</td>
-      <td style="text-align:left">
-        <p><a href="https://gobyexample.com/">Continue sharpening your Go skills</a> [day
-          2]</p>
-        <p>Get your 1st task and deploy your first code to CMP!</p>
-      </td>
-      <td style="text-align:left">dror@</td>
+      <td style="text-align:left"><a href="https://gobyexample.com/">Continue sharpening your Go skills</a> [day
+        2]</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">5</td>
+      <td style="text-align:left">Get your 1st task and deploy your first code to CMP!</td>
+      <td style="text-align:left">tamir@</td>
     </tr>
     <tr>
       <td style="text-align:left">6</td>
       <td style="text-align:left">
-        <p>Setup a call with <a href="https://www.linkedin.com/in/vadimska/">Vadim Solovey</a>
+        <p>Set up a call with <a href="https://www.linkedin.com/in/vadimska/">Vadim Solovey</a>
         </p>
         <p>Continue to work on your assigned tasks</p>
       </td>
