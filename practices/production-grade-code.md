@@ -11,13 +11,13 @@ You've just finished debugging your code and everything looks great. You feel go
 
 Before you commit your code, please pause and make sure you've not forgotten to think \(and implement!\) what would make the difference between just a code and the production-grade code. 
 
-**Use the right Repository**
+#### **Use the right Repository**
 
 In most cases, your code should be committed to [https://github.com/doitintl/hello-cmp](https://github.com/doitintl/hello-cmp) repository using a pull request so the Cloud Build could read it during the deployment process.  Our main deployment automation based on Google Cloud Build will only pull code from this repository for security purposes.
 
 If you can make a strong case for your feature \(security concerns, unique configuration, etc.\), your code can be hosted in a separate repository. The name of this repository have to start with `cmp-` \(see examples such as `cmp-forecasting` or `cmp-zendesk-app`.
 
-**Deployment**
+#### **Deployment**
 
 You need to have a clear understanding of how your code is going to be deployed initially and every next time when your pull requests are approved. For example, each time you add Cloud Function or CloudRun to the project, they need to be specifically deployed. Check [cloudbuild.json](https://github.com/doitintl/hello-cmp/blob/master/configuration/cloudbuild.prod.json) for more details.
 
