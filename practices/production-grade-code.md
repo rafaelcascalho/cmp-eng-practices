@@ -36,7 +36,6 @@ if common.Production {
 } else {
      // Running locally...
 }
-
 ```
 {% endtab %}
 
