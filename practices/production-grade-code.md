@@ -13,13 +13,13 @@ Before you commit your code, please pause and make sure you've not forgotten to 
 
 ### **Use the right Repository**
 
-In most cases, your code should be committed to [https://github.com/doitintl/hello-cmp](https://github.com/doitintl/hello-cmp) repository using a pull request so the Cloud Build could read it during the deployment process.  Our main deployment automation based on Google Cloud Build will only pull code from this repository for security purposes.
+In most cases, your code should reside in the [https://github.com/doitintl/hello-cmp](https://github.com/doitintl/hello-cmp) repository. using a pull request so the Cloud Build could read it during the deployment process. Our main deployment automation based on Google Cloud Build will only pull code from this repository for security purposes.
 
 If you can make a strong case for your feature \(security concerns, unique configuration, etc.\), your code can be hosted in a separate repository. The name of this repository have to start with `cmp-` \(see examples such as `cmp-forecasting` or `cmp-zendesk-app`.
 
 ### **Deployment**
 
-You need to have a clear understanding of how your code is going to be deployed initially and every next time when your pull requests are approved. For example, each time you add Cloud Function or CloudRun to the project, they need to be specifically deployed. Check [cloudbuild.json](https://github.com/doitintl/hello-cmp/blob/master/configuration/cloudbuild.prod.json) for more details.
+You need to have a clear understanding of how your code is going to be deployed initially, and every next time when your pull requests are approved. For example, each time you add Cloud Function or Cloud Run to the project, they need to be specifically deployed. Check [cloudbuild.json](https://github.com/doitintl/hello-cmp/blob/master/configuration/cloudbuild.prod.json) for more details.
 
 ### **Environment**
 
@@ -31,9 +31,31 @@ TODO: Code example
 
 ### **Secrets**
 
-Never store secrets in the repository or locally on your laptop. All secrets should be stored in the Google Secret Manager and consumed from there when you need them.
+Never store secrets in the repository or locally on your laptop. All secrets should be stored in the Google Secret Manager \(GSM\) and consumed from there when you need them. Use our `secretmanager` package to access secrets stored in GSM:
 
+```go
+// Define the secret structure, secrets are usually created in JSON format
+type secret struct {
+	BaseURL string `json:"base_url"`
+	APIKey  string `json:"api_key"`
+}
 
+// Retrieve the latest version for "MySecret" secret
+secretPayload, err := secretmanager.AccessSecretLatestVersion(ctx, secretmanager.MySecret)
+if err != nil {
+	// handle error
+}
+
+// Unmarshal the secret payload to a usable variable
+var mySecret secret
+if err = json.Unmarshal(secretPayload, &mySecret); err != nil {
+	// handle error
+}
+```
+
+{% hint style="info" %}
+If you require a new secret that is currently not available in GSM, please discuss this with your Staff Software Engineer \(SSE\).
+{% endhint %}
 
 ### **Observability**
 
