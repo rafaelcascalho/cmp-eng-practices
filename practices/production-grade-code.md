@@ -28,24 +28,32 @@ Your code should be aware of the environment it's running in and act accordingly
 {% tabs %}
 {% tab title="Go" %}
 ```go
-// Send email to customer only on production environment.
 if common.Production {
-    sendEmailToCustomer(ctx, customer, message)
+     // Running on GAE, on the production project
+} else if !IsLocalhost {
+     // Running on GAE, but not in the production project
+     // This may be the dev project or your playground
+} else {
+     // Running locally...
 }
 
 ```
 {% endtab %}
 
 {% tab title="Client" %}
-```text
-// TODO: Code example
+```javascript
+if (process.env.NODE_ENV === "production") {
+    console.log("Running the production build");
+}
 ```
 {% endtab %}
 {% endtabs %}
 
 ### **Secrets**
 
-Never store secrets in the repository or locally on your laptop. All secrets should be stored in the Google Secret Manager \(GSM\) and consumed from there when you need them. Use our `secretmanager` package to access secrets stored in GSM:
+Never store secrets in the repository or locally on your laptop. All secrets should be stored in the Google Secret Manager \(GSM\) and consumed from there when you need them. Secrets are only to be used in the backend; under no circumstances should you include a secret file in the client's code.  
+  
+Use our `secretmanager` package to access secrets stored in GSM from the backend:
 
 {% tabs %}
 {% tab title="Go" %}
@@ -83,14 +91,31 @@ Observability ****helps our product, customer success, and engineering teams to 
 It can be achieved by sending events to [Mixpanel](https://mixpanel.com/), the tool we use to collect user events. Your code should emit events for all major actions of the feature, preferably with event properties for additional context.
 
 {% hint style="info" %}
-Events should follow naming convention - `cmp.feature-name.action-name`. For example, `cmp.analytics.reports.new` is the event when a new Cloud Analytics report is created. 
+Events should follow naming convention - `feature[.sub-feature].action-name[.sub-action]`.  
+For example, `analytics.reports.new` is the event when a new Cloud Analytics report is created. 
 {% endhint %}
 
 Check the reference events implementation for more details:
 
-```text
-TODO: Code example
+{% tabs %}
+{% tab title="Client" %}
+```javascript
+import mixpanel from "../../utils/mixpanel";
+
+// mixpanel.track(event_name, event_properties)
+mixpanel.track("analytics.reports.new", { 
+    reportId: docRef.id, 
+    draft: isDraft 
+});
 ```
+{% endtab %}
+
+{% tab title="Go" %}
+```text
+// WIP
+```
+{% endtab %}
+{% endtabs %}
 
 ### **Monitoring**
 
