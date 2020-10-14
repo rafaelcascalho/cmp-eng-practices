@@ -11,7 +11,7 @@ description: >-
 
 The current stack of programming languages for the CMP is:
 
-| Running Environment | Language/Framework | Version |
+| Running Environment | Language/Library | Version |
 | :--- | :--- | :--- |
 | Google App Engine default service | Node.js | v12 |
 | Google App Engine backend services | Go | v1.14 |
