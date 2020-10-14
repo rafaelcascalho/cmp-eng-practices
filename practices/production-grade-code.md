@@ -25,9 +25,23 @@ You need to have a clear understanding of how your code is going to be deployed 
 
 Your code should be aware of the environment it's running in and act accordingly. There is a difference if your code runs locally on your laptop, the dev/staging environments, or in the production environment. Where applicable, use this simple case:
 
-```text
-TODO: Code example
+{% tabs %}
+{% tab title="Go" %}
+```go
+// Send email to customer only on production environment.
+if common.Production {
+    sendEmailToCustomer(ctx, customer, message)
+}
+
 ```
+{% endtab %}
+
+{% tab title="Client" %}
+```text
+// TODO: Code example
+```
+{% endtab %}
+{% endtabs %}
 
 ### **Secrets**
 
@@ -53,6 +67,7 @@ var mySecret secret
 if err = json.Unmarshal(secretPayload, &mySecret); err != nil {
 	// handle error
 }
+
 ```
 {% endtab %}
 {% endtabs %}
