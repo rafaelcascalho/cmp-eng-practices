@@ -11,13 +11,20 @@ description: >-
 
 The current stack of programming languages for the CMP is:
 
-* Go 11+
-* Python 3.0+
-* NodeJS 10+
+| Running Environment | Language/Framework | Version |
+| :--- | :--- | :--- |
+| Google App Engine default service | Node.js | v12 |
+| Google App Engine backend services | Go | v1.14 |
+| Firebase functions \(Firestore triggers\), Google Cloud Functions | Node.js | v12 |
+| CMP Browser Client | React | v16.13 |
+| Other | Python | v3.8 |
 
-The majority of the CMP codebase is written in **golang**. We like golang because it's easy to learn, have good support for concurrency and good quality client libraries for Google Cloud and Amazon Web Services. It also runs on Google App Engine, platform we use to run the CMP.
+The majority of the CMP backend codebase is written in **Go programming language**.  
+We like to use Go because it's relatively easy to learn, has good support for concurrency, and has good quality client libraries for Google Cloud and Amazon Web Services. It is also supported by the Google App Engine standard \(2nd generation\) platform.
 
-**Python** is mostly used when we need the support for frameworks such as [pandas](https://pandas.pydata.org/) or [pmdarima](https://alkaline-ml.com/pmdarima/index.html) or when there is no client library available for golang. For example, we use [Algolia](https://www.algolia.com/) for free text search and there is no golang client library \(as of late 2020\).
+**Node.js** is mostly used for Firebase or Google cloud functions. The support for Go on these platforms is still limited.
 
-Finally, **NodeJS** is the less used language. It's our final fallback for use cases when we need Javascript support to interact with DOM \(e.g. scrapers\). 
+Finally, **Python** is the less used language. It's our final fallback for use cases when we need the support for frameworks such as [pandas](https://pandas.pydata.org/) or [pmdarima](https://alkaline-ml.com/pmdarima/index.html) or when there is no client library available for Go.
+
+
 
