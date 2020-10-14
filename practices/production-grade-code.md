@@ -33,6 +33,8 @@ TODO: Code example
 
 Never store secrets in the repository or locally on your laptop. All secrets should be stored in the Google Secret Manager \(GSM\) and consumed from there when you need them. Use our `secretmanager` package to access secrets stored in GSM:
 
+{% tabs %}
+{% tab title="Go" %}
 ```go
 // Define the secret structure, secrets are usually created in JSON format
 type secret struct {
@@ -52,6 +54,8 @@ if err = json.Unmarshal(secretPayload, &mySecret); err != nil {
 	// handle error
 }
 ```
+{% endtab %}
+{% endtabs %}
 
 {% hint style="info" %}
 If you require a new secret that is currently not available in GSM, please discuss this with your Staff Software Engineer \(SSE\).
