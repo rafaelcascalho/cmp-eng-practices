@@ -35,12 +35,12 @@ The Cloud Management Platform we are building has 5 pillars: Analytics, Governan
 
 As an engineer, you will be assigned to one of our pillar teams so you could develop a deep understanding and expertise in a certain area in the product. Here is a brief mission statement for each team.
 
-* **Analytics & Billing**: get an accurate view of costs across multiple clouds, no matter how complex the cloud infrastructure is.
+* **Core** - Establish solid and robust foundations crossing the domain boundaries of the Cloud Management Platform.
+* **Analytics & Billing \(A&B\)**: get an accurate view of costs across multiple clouds, no matter how complex the cloud infrastructure is.
 * **Governance**: policy-based governance capabilities to ensure compliance through automated remedial actions, and a greater ability to integrate with external tooling
 * **Optimization**: Address the ballooning cloud cost using a reactive approach and achieve sustainable cost reduction, using an automated approach, embraced by the developers and cloud architects.
 * **Productivity**: Provide data analysts and engineers with the best web-based IDE for cloud-native databases.
 * **Enablement**: Empower our customers to achieve more with the Cloud Management Platform by building self-service functionality and “productizing” some of our Cloud Engineering team.
-* **Core** - Establish solid and robust foundations crossing the domain boundaries of the Cloud Management Platform.
 
 ## Slack Communication Channels
 
@@ -55,6 +55,8 @@ As a remote-first company, we rely on Slack, email, Google Meet, and a few other
 * \#winwire \(new sales contracts announcements\)
 * \#engineering \(used mainly by Cloud Reliability Engineering team\)
 * \#satisfaction \(support ticket customer satisfaction ratings\)
+* \#product-feedback \(feedback on products from users and employees\)
+* \#product-support \(product support for DoiT employees\)
 
 ## Your High-Level Onboarding Plan
 
@@ -100,11 +102,8 @@ Recommended tasks to get the most out of of your first couple of weeks:
     </tr>
     <tr>
       <td style="text-align:left">2</td>
-      <td style="text-align:left">
-        <p><a href="https://firebase.google.com/docs/firestore/quickstart">Start the Google Firestore Training</a> [day
-          1]</p>
-        <p></p>
-      </td>
+      <td style="text-align:left"><a href="https://firebase.google.com/docs/firestore/quickstart">Start the Google Firestore Training</a> [day
+        1]</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
@@ -200,12 +199,11 @@ Each of the boards will have a task name and status column such as “Developing
 
 Once a task was assigned to you, please do the following:
 
-* See that you understand what you need to do
+* See that you understand what you need to do.
 * Once you start the task move it to "Developing this Week" column
-* In GitHub Repo open a feature/hotfix branch per the type of tasks you were assigned to.
-* Branch names should follow this convention: feature/emailName/featureDescritpion. For example, for  [talc@doit-intl.com](mailto:talc@doit-intl.com) it will be “feature/talc/cloudConnect” or “hotfix/emailName/hotfixDescription”
-* Once you complete your task move the task to the QA/Review column and open a PR which should be assigned to your manager or colleague for review
-* During QA when your branch is being deployed make sure to post a link to your PR into the build thread on Slack \([\#cmp-devops](https://doitintl.slack.com/archives/CHW0WM8P3)\) for visibility
+* In GitHub Repo open a feature/hotfix branch per the type of tasks you were assigned to. Branch names should follow our [naming conventions](https://app.gitbook.com/@doitintl/s/eng-practices/~/drafts/-MJb4N_uEa5mUmft0Eyh/practices/branch-mgmt). 
+* Once you complete your task move the task to the "QA/Review" column and open a PR which should be assigned to your manager or colleague for review.
+* During QA when your branch is being deployed make sure to post a link to your PR into the build thread on Slack \([\#cmp-devops](https://doitintl.slack.com/archives/CHW0WM8P3)\) for visibility.
 
 ## Additional Resources
 

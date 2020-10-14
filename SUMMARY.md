@@ -6,7 +6,7 @@
 
 * [Programming Languages](practices/programming-languages.md)
 * [Frameworks](practices/frameworks.md)
-* [Git Branch Naming Convention](practices/branch-mgmt.md)
+* [Git Workflow and Conventions](practices/branch-mgmt.md)
 * [Writing Production-Grade Code](practices/production-grade-code.md)
 * [Code Reviews](practices/code-reviews.md)
 
