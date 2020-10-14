@@ -25,7 +25,7 @@ Write commit messages such as the following: ".", "wip", "new feature", "fix", "
 
 #### New feature branches
 
-Each new feature should reside in its own branch. A feature branch uses `dev` as its parent branch. When a feature is complete, create a Pull Request \(PR\) back to `dev`. The PR will be squashed and merged after code review/testing of the feature.  
+Each new feature should reside in its own branch. A feature branch uses `dev` as its parent branch. When a feature is complete, create a Pull Request \(PR\) back to `dev`. PRs will be squashed and merged after code review/testing of the feature.  
   
 Naming convention: `feature/email_handler/my_feature_title`  
 Example: `feature/vadim/gcp_billing_reports`
