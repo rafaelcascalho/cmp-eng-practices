@@ -33,6 +33,8 @@ TODO: Code example
 
 Never store secrets in the repository or locally on your laptop. All secrets should be stored in the Google Secret Manager and consumed from there when you need them.
 
+
+
 ### **Observability**
 
 Observability ****helps our product, customer success, and engineering teams to understand how CMP is being adopted by our customers and users. 
