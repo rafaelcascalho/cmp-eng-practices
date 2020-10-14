@@ -117,6 +117,14 @@ mixpanel.track("analytics.reports.new", {
 {% endtab %}
 {% endtabs %}
 
+### **Logging**
+
+Your code should handle errors gracefully and log the errors accordingly. Always send your logs to Google Cloud Logging using this .... function so these errors could be aggregated, analyzed, and correlated with other errors when we try to troubleshoot the outage or a bug.  
+
+```text
+TODO: Code example
+```
+
 ### **Monitoring**
 
 How do you know your feature is working? How others can know it is working too? Your code should implement a logic that Google Monitoring \(aka Stackdriver\) can use to generate alerts when something is wrong.
@@ -128,14 +136,6 @@ Custom metrics should follow naming convention - `cmp.feature-name.task-name`. F
 {% endhint %}
 
 Check the reference custom metric implementation for more details:
-
-```text
-TODO: Code example
-```
-
-### **Logs**
-
-Your code should handle errors gracefully and log the errors accordingly. Always send your logs to Google Cloud Logging using this .... function so these errors could be aggregated, analyzed, and correlated with other errors when we try to troubleshoot the outage or a bug.  
 
 ```text
 TODO: Code example
