@@ -225,11 +225,14 @@ Once a task was assigned to you, please do the following:
         <p><a href="https://www.udemy.com/course/learn-how-to-code/">Learn How To Code: Google&apos;s Go (golang) Programming Language</a>
         </p>
         <p><a href="https://www.udemy.com/course/go-the-complete-developers-guide/">Go: The Complete Developer&apos;s Guide</a>
+          <br
+          /><a href="https://dave.cheney.net/practical-go/presentations/gophercon-singapore-2019.html">Go best Practice</a>
         </p>
       </td>
       <td style="text-align:left">
         <p>&#xB1;50 hours</p>
         <p>&#xB1;9 hours</p>
+        <p>&#xB1;5 hours</p>
       </td>
     </tr>
     <tr>
