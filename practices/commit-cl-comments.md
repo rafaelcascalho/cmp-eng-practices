@@ -1,6 +1,6 @@
 # Commit/CL Comments
 
-A commit comment is a public record of **what** change is being made and **why** it was made. It will become a permanent part of our version control history, and will possibly be read by hundreds of people other than your reviewers over the years.
+A commit comment is a public record of **what** change is being made and **why** it was made. It will become a permanent part of our version control history, and will possibly be read by many people other than you or your team over the years.
 
 Future developers will search for your CL based on its description. Someone in the future might be looking for your change because of a faint memory of its relevance but without the specifics handy. If all the important information is in the code and not the description, it's going to be a lot harder for them to locate your CL.
 
