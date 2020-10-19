@@ -125,7 +125,7 @@ Recommended tasks to get the most out of of your first couple of weeks:
     </tr>
     <tr>
       <td style="text-align:left">3</td>
-      <td style="text-align:left">Explore our external documentation (help.doit-intl.com/hc)</td>
+      <td style="text-align:left">Explore our external documentation (help.doit-intl.com)</td>
       <td style="text-align:left"></td>
     </tr>
     <tr>
