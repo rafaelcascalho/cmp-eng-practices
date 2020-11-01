@@ -70,7 +70,7 @@ As a remote-first company, we rely on Slack, email, Google Meet, and a few other
 
 ## Your First Tasks
 
-Recommended tasks to get the most out of of your first couple of weeks:
+Recommended tasks to get the most out of your first couple of weeks:
 
 <table>
   <thead>
@@ -96,9 +96,9 @@ Recommended tasks to get the most out of of your first couple of weeks:
     </tr>
     <tr>
       <td style="text-align:left">1</td>
-      <td style="text-align:left"><a href="https://github.com/doitintl/hello-cmp/blob/dev/README.md">Set up your laptop and dev env.</a>
-      </td>
-      <td style="text-align:left">dror@</td>
+      <td style="text-align:left"><a href="https://gobyexample.com/">Start sharpening your Go skills</a> [day
+        1]</td>
+      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">2</td>
@@ -130,9 +130,9 @@ Recommended tasks to get the most out of of your first couple of weeks:
     </tr>
     <tr>
       <td style="text-align:left">4</td>
-      <td style="text-align:left"><a href="https://gobyexample.com/">Start sharpening your Go skills</a> [day
-        1]</td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left"><a href="https://github.com/doitintl/hello-cmp/blob/dev/README.md">Set up your laptop and dev env</a>
+      </td>
+      <td style="text-align:left">dror@</td>
     </tr>
     <tr>
       <td style="text-align:left">4</td>
