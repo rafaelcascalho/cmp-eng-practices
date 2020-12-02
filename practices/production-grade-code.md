@@ -19,7 +19,7 @@ If you can make a strong case for your feature \(security concerns, unique confi
 
 ### **Deployment**
 
-You need to have a clear understanding of how your code is going to be deployed initially, and every next time when your pull requests are approved. For example, each time you add Cloud Function or Cloud Run to the project, they need to be specifically deployed. Check [cloudbuild.json](https://github.com/doitintl/hello-cmp/blob/master/configuration/cloudbuild.prod.json) for more details.
+You need to have a clear understanding of how your code is going to be deployed initially, and every next time when your pull requests are approved. For example, each time you add Cloud Function or Cloud Run to the project, they need to be specifically deployed. Check [cloudbuild.json](https://github.com/doitintl/hello-cmp/blob/master/configuration/cloudbuild.prod.json) for more details. bla
 
 ### **Environment**
 
