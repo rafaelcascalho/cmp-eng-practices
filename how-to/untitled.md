@@ -1,8 +1,10 @@
-# Untitled
+---
+description: >-
+  Run proxy, serverless-offline, and client using the launch.json file for
+  Visual Studio Code
+---
 
-## How to run superQuery development in VS Code?
-
-Run proxy, serverless-offline and client using the launch.json file
+# Set up superQuery Dev Env
 
 ```text
 {
@@ -182,5 +184,5 @@ and
 /Users/ebendutoit/.nvm/versions/node/v8.9.4/bin
 ```
 
-Thank you Eben!
+Thank you, @eben for putting this together!
 
