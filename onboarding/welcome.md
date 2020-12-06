@@ -230,12 +230,15 @@ Once a task was assigned to you, please do the following:
         </p>
         <p><a href="https://gobyexample.com/">Go by example</a>
         </p>
+        <p><a href="https://drive.google.com/drive/folders/1k3CHxyDsE4clM9s0XTq5CFyj8fE_uQTL">Go Workshop (advanced)</a>
+        </p>
       </td>
       <td style="text-align:left">
         <p>&#xB1;50 hours</p>
         <p>&#xB1;9 hours</p>
         <p>&#xB1;5 hours</p>
         <p>-</p>
+        <p>&#xB1;20 hours</p>
       </td>
     </tr>
     <tr>
