@@ -10,6 +10,7 @@
 * [Writing Production-Grade Code](practices/production-grade-code.md)
 * [Commit/CL Comments](practices/commit-cl-comments.md)
 * [Small or Large CLs?](practices/small-or-large-cls.md)
+* [Testing](practices/testing.md)
 * [Code Reviews](practices/code-reviews.md)
 
 ## How To
