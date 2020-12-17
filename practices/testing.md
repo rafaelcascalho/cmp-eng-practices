@@ -32,7 +32,7 @@ In `hello-cmp/client` we use [Jest](https://jestjs.io/) and [react-testing-libra
 This extension will let you run/debug test from vs-code by clicking the "run \| debug" button above each test or test suite  
 
 
-![](../.gitbook/assets/screen-shot-2020-12-15-at-12.36.30.png)
+![Schedule dialog example test](../.gitbook/assets/screen-shot-2020-12-15-at-12.36.30.png)
 
-To add a new test create a file with the pattern NAME.test.SUFFIX and jest will run test suites inside this file. You can see the basic test example at `client/src/Pages/CloudAnalytics/dialogs/scheduleDialog/ScheduleDialog.test.tsx` and explore official docs as well.
+To add a new test create a file with the pattern NAME.test.SUFFIX and jest will run test suites inside this file. You can see the basic test example at`client/src/Pages/CloudAnalytics/dialogs/scheduleDialog/ScheduleDialog.test.tsx` and explore official docs as well.
 
