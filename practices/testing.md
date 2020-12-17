@@ -17,7 +17,7 @@ You should test what parameters my component passed to the HTTP client. An impor
 
 #### Technical Stack
 
-In `hello-cmp/client` we use [Jest](https://jestjs.io/) and [react-testing-library](https://testing-library.com/docs/react-testing-library/intro/) as testing frameworks.  To initiate all tests suits run `yarn test:unit` from the `client` dir. To run or debug specific test you can use vs-code extension [Jest Runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner) with this configuration:
+In `hello-cmp/client` we use [Jest](https://jestjs.io/) and [react-testing-library](https://testing-library.com/docs/react-testing-library/intro/) as testing frameworks.  To initiate all tests suits run `yarn test:unit` from the `client` dir \(Don't forget to `yarn install`\). To run or debug specific test you can use vs-code extension [Jest Runner](https://marketplace.visualstudio.com/items?itemName=firsttris.vscode-jest-runner) with this configuration:
 
 ```text
     "jestrunner.configPath": "client/jest.config.ts",
