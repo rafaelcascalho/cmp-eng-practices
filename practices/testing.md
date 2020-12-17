@@ -4,7 +4,7 @@ description: How we test?
 
 # Testing
 
-### UI Unit Testing
+### Client Side Unit Testing
 
 Unit testing serves two goals:
 
