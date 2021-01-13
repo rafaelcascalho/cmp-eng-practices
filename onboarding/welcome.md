@@ -255,7 +255,7 @@ Once a task was assigned to you, please do the following:
     </tr>
     <tr>
       <td style="text-align:left">CMP</td>
-      <td style="text-align:left"><a href="https://app.gitbook.com/@doitintl/s/cmp/">How-to Product Videos</a>
+      <td style="text-align:left"><a href="https://loom.com/share/folder/500d1e02ea624654880166f229831ab9">How-to Product Videos</a>
       </td>
       <td style="text-align:left">2 hours</td>
     </tr>
@@ -267,4 +267,6 @@ Once a task was assigned to you, please do the following:
     </tr>
   </tbody>
 </table>
+
+
 
