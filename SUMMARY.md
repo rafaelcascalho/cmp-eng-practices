@@ -15,6 +15,7 @@
 
 ## How To
 
+* [Set up SonarCloud locally](how-to/set-up-sonarcloud-locally.md)
 * [CMP API for Do'ers!](how-to/cmp-api-for-doers.md)
 * [Copy Firestore to Dev/Sandbox](how-to/firestore-cp-to-dev.md)
 * [Setup CMP Playground/Sandbox](how-to/setup-cmp-playground.md)
