@@ -56,7 +56,7 @@ See how to generate your credentials below
 
 ### Use:
 
-* Issues will be prompted as an integrated part of your IDE 
+* **Issues will be prompted as an integrated part of your IDE** 
 * PROBLEMS tab -&gt; shows aggregated issues for all of your currently open files \(vscode tabs\)
 * OUTPUT tab - \(choose SonarLint on the right side dropdown\) -&gt;  prints any action taken by the extension package \(log\)
 {% endtab %}
@@ -91,7 +91,7 @@ See how to generate your credentials below
 
 ### Use:
 
-* Issues will be prompted as an integrated part of your IDE 
+* **Issues will be prompted as an integrated part of your IDE** 
 * On SonarLint tab:
 
   * Current file -  shows issues related to the current file
