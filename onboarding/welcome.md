@@ -245,14 +245,18 @@ Once a task was assigned to you, please do the following:
     <tr>
       <td style="text-align:left">React</td>
       <td style="text-align:left">
-        <p><a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/">React - The Complete Guide</a>
+        <p><a href="https://reactjs.org/tutorial/tutorial.html">Tutorial: Intro to React</a>
         </p>
+        <p><a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/">React - The Complete Guide</a>:</p>
         <p>Each section has an explanation and then an example
           <br />from the &#x201C;Burger&#x201D; app.
           <br />The &quot;Burger&quot; part may be skipped if there a time constraint.</p>
       </td>
       <td style="text-align:left">
+        <p>&#xB1;4 hours</p>
         <p>&#xB1;50 hours</p>
+        <p></p>
+        <p></p>
         <p></p>
       </td>
     </tr>
