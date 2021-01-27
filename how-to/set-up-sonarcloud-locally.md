@@ -133,6 +133,6 @@ If you are having configuration issues feel free to contact [ofir.cohen@doit-int
 {% endhint %}
 
 {% hint style="warning" %}
-If you are having permissions issue or cannot sign in to SonarCloud please contact [vadim@doit-intl.com](mailto:vadim@doit-intl.com)
+If you are having permissions issue or cannot sign in to SonarCloud please contact [dror@doit-intl.com](mailto:dror@doit-intl.com)
 {% endhint %}
 
