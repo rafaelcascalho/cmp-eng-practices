@@ -242,6 +242,26 @@ Once a task was assigned to you, please do the following:
       </td>
     </tr>
     <tr>
+      <td style="text-align:left">React</td>
+      <td style="text-align:left">
+        <p><a href="https://www.udemy.com/course/react-the-complete-guide-incl-redux/">React - The Complete Guide</a>
+        </p>
+        <p>Each section has an explanation and then an example
+          <br />from the &#x201C;Burger&#x201D; app.
+          <br />The &quot;Burger&quot; part may be skipped if there a time constraint.</p>
+      </td>
+      <td style="text-align:left">
+        <p>&#xB1;50 hours</p>
+        <p></p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Firestore</td>
+      <td style="text-align:left"><a href="https://firebase.google.com/docs/firestore/quickstart">Firestore Quickstart</a>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
       <td style="text-align:left">Google App Engine</td>
       <td style="text-align:left"><a href="https://cloud.google.com/appengine/docs/standard/go/quickstart">Quickstart for Go 1.12+ in the App Engine</a>
       </td>
@@ -255,15 +275,13 @@ Once a task was assigned to you, please do the following:
     </tr>
     <tr>
       <td style="text-align:left">CMP</td>
-      <td style="text-align:left"><a href="https://loom.com/share/folder/500d1e02ea624654880166f229831ab9">How-to Product Videos</a>
+      <td style="text-align:left">
+        <p><a href="https://loom.com/share/folder/500d1e02ea624654880166f229831ab9">How-to Product Videos</a>
+        </p>
+        <p><a href="https://drive.google.com/drive/u/1/folders/1pEG59c502WVV1AaP_XLcIVGKTq9tIDlc">Product Videos on Google Drive</a>
+        </p>
       </td>
       <td style="text-align:left">2 hours</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">CMP</td>
-      <td style="text-align:left"><a href="https://drive.google.com/drive/u/1/folders/1pEG59c502WVV1AaP_XLcIVGKTq9tIDlc">Product Videos on Google Drive</a>
-      </td>
-      <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>
