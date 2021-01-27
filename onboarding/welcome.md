@@ -44,16 +44,17 @@ As an engineer, you will be assigned to one of our pillar teams so you could dev
 
 ## Slack Communication Channels
 
-As a remote-first company, we rely on Slack, email, Google Meet, and a few other communication channels. Please join the following Slack channels on doitintl.slack.com workspace:
+As a remote-first company, we rely on Slack, email, Google Meet, and a few other communication channels. Please join the following Slack channels on [doitintl.slack.com](http://doitintl.slack.com/) workspace:
 
-* [\#team-platforms](https://doitintl.slack.com/archives/CL6932A5S) \(team’s channel\)
-* [\#cmp-release-notes](https://doitintl.slack.com/archives/C01865K3ACU) \(internal announcements of new features\)
+* [\#team-engineering](https://doitintl.slack.com/archives/CL6932A5S) \(engineering team’s channel\)
+* [\#team-cmp](https://doitintl.slack.com/archives/G0195FR11M5) \(CMP team's channel\)
+* [\#cmp-announcements](https://doitintl.slack.com/archives/C01865K3ACU) \(internal announcements of new features\)
 * [\#cmp-devops](https://doitintl.slack.com/archives/CHW0WM8P3) \(our CI/CD channel\)
 
 **Optional channels to watch**
 
 * \#winwire \(new sales contracts announcements\)
-* \#engineering \(used mainly by Cloud Reliability Engineering team\)
+* \#cloud-engineering \(used mainly by Cloud Reliability Engineering team\)
 * \#satisfaction \(support ticket customer satisfaction ratings\)
 * \#product-feedback \(feedback on products from users and employees\)
 * \#product-support \(product support for DoiT employees\)
